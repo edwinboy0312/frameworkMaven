@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47789" started-at="2018-03-05T02:13:07Z" finished-at="2018-03-05T02:13:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47789" started-at="2018-03-05T02:13:07Z" finished-at="2018-03-05T02:13:55Z">
+      <class name="com.testSelenium.UiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testSelenium.UiTest@5622fdf]" name="beforeClass" is-config="true" duration-ms="3627" started-at="2018-03-04T21:13:07Z" finished-at="2018-03-04T21:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testFilterPage()[pri:0, instance:com.testSelenium.UiTest@5622fdf]" name="testFilterPage" duration-ms="33611" started-at="2018-03-04T21:13:11Z" finished-at="2018-03-04T21:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.UiTest@5622fdf]" name="afterTest" is-config="true" duration-ms="4" started-at="2018-03-04T21:13:44Z" finished-at="2018-03-04T21:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testNewCustomerPage()[pri:0, instance:com.testSelenium.UiTest@5622fdf]" name="testNewCustomerPage" duration-ms="8334" started-at="2018-03-04T21:13:44Z" finished-at="2018-03-04T21:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewCustomerPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.UiTest@5622fdf]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-03-04T21:13:53Z" finished-at="2018-03-04T21:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testSelenium.UiTest@5622fdf]" name="afterClass" is-config="true" duration-ms="2186" started-at="2018-03-04T21:13:53Z" finished-at="2018-03-04T21:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testSelenium.UiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

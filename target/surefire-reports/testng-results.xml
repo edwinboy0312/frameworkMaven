@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteName" duration-ms="53553" started-at="2018-03-05T03:21:15Z" finished-at="2018-03-05T03:22:08Z">
+    <groups>
+    </groups>
+    <test name="TestName" duration-ms="53553" started-at="2018-03-05T03:21:15Z" finished-at="2018-03-05T03:22:08Z">
+      <class name="com.testSelenium.UiTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testSelenium.UiTest@67b6d4ae]" name="beforeSuite" is-config="true" duration-ms="375" started-at="2018-03-04T22:21:14Z" finished-at="2018-03-04T22:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testSelenium.UiTest@67b6d4ae]" name="beforeClass" is-config="true" duration-ms="4060" started-at="2018-03-04T22:21:15Z" finished-at="2018-03-04T22:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testFilterPage()[pri:0, instance:com.testSelenium.UiTest@67b6d4ae]" name="testFilterPage" duration-ms="36201" started-at="2018-03-04T22:21:19Z" finished-at="2018-03-04T22:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.UiTest@67b6d4ae]" name="afterTest" is-config="true" duration-ms="4" started-at="2018-03-04T22:21:55Z" finished-at="2018-03-04T22:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testNewCustomerPage()[pri:0, instance:com.testSelenium.UiTest@67b6d4ae]" name="testNewCustomerPage" duration-ms="8547" started-at="2018-03-04T22:21:55Z" finished-at="2018-03-04T22:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewCustomerPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.UiTest@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:03Z" finished-at="2018-03-04T22:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testSelenium.UiTest@67b6d4ae]" name="afterClass" is-config="true" duration-ms="2237" started-at="2018-03-04T22:22:03Z" finished-at="2018-03-04T22:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testSelenium.UiTest -->
+      <class name="com.testSelenium.ApiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="beforeClass" is-config="true" duration-ms="1829" started-at="2018-03-04T22:22:06Z" finished-at="2018-03-04T22:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testGetServiceForComments()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testGetServiceForComments" duration-ms="125" started-at="2018-03-04T22:22:07Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServiceForComments -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testGetServiceForPost()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testGetServiceForPost" duration-ms="15" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServiceForPost -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testGetServiceForUsers()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testGetServiceForUsers" duration-ms="47" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServiceForUsers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testPostServiceForComments()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testPostServiceForComments" duration-ms="78" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostServiceForComments -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testPostServiceForPost()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testPostServiceForPost" duration-ms="94" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostServiceForPost -->
+        <test-method status="PASS" signature="testPostServiceForUsers()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testPostServiceForUsers" duration-ms="78" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostServiceForUsers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testPutServiceForComment()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testPutServiceForComment" duration-ms="78" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutServiceForComment -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testPutServiceForPost()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testPutServiceForPost" duration-ms="63" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutServiceForPost -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testPutServiceForUsers()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="testPutServiceForUsers" duration-ms="78" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutServiceForUsers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testSelenium.ApiTest@234bef66]" name="afterSuite" is-config="true" duration-ms="531" started-at="2018-03-04T22:22:08Z" finished-at="2018-03-04T22:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testSelenium.ApiTest -->
+    </test> <!-- TestName -->
+  </suite> <!-- SuiteName -->
+</testng-results>

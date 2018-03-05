@@ -1,0 +1,10 @@
+com\testSelenium\pages\PageBase.class
+com\testSelenium\utilities\CommonUtilities.class
+com\testSelenium\utilities\InstanceHolder.class
+com\testSelenium\UiTest.class
+com\testSelenium\pages\UsersPage.class
+com\testSelenium\utilities\ApiUtilities.class
+com\testSelenium\ApiTest.class
+com\testSelenium\pages\NewUserPage.class
+com\testSelenium\pages\HomePage.class
+com\testSelenium\utilities\WebDriverHelper.class
