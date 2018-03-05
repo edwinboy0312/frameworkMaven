@@ -22,7 +22,6 @@ import com.testSelenium.utilities.WebDriverHelper;
 
 public class ApiTest extends PageBase{
 
-  WebDriver driver;
   ExtentReports report;
   ExtentTest test;
   WebDriverHelper wh;
@@ -39,7 +38,6 @@ public class ApiTest extends PageBase{
   void beforeClass(){
     report = new ExtentReports("./reports/ExecutionReport.html", false, DisplayOrder.OLDEST_FIRST);
     testdata = excelUtilities.loadData();
-    driver = new HtmlUnitDriver();
     map.put("Content-Type" , "application/json");
   }
 
@@ -47,7 +45,7 @@ public class ApiTest extends PageBase{
   public void testGetServiceForPost() throws Exception {
     
     test = report.startTest("API - Get Method for Posts");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
     
     jsonResponse = apiUtilities.getEntity(testdata.get("BaseUrl").toString().trim()+"/posts/2", map);
@@ -58,7 +56,7 @@ public class ApiTest extends PageBase{
   public void testPostServiceForPost() throws Exception {
 
     test = report.startTest("API - Post Method for Posts");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
 
 
@@ -71,7 +69,7 @@ public class ApiTest extends PageBase{
   public void testPutServiceForPost() throws Exception {
 
     test = report.startTest("API - Put Method for Posts");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
 
     payload = apiUtilities.createPutRequestForPosts();
@@ -83,7 +81,7 @@ public class ApiTest extends PageBase{
   public void testGetServiceForComments() throws Exception {
 
     test = report.startTest("API - Get Method for Comments");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
 
     jsonResponse = apiUtilities.getEntity(testdata.get("BaseUrl").toString().trim()+"/comments/2", map);
@@ -94,7 +92,7 @@ public class ApiTest extends PageBase{
   public void testPostServiceForComments() throws Exception {
 
     test = report.startTest("API - Post Method for Comments");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
 
 
@@ -107,7 +105,7 @@ public class ApiTest extends PageBase{
   public void testPutServiceForComment() throws Exception {
 
     test = report.startTest("API - Put Method for Comments");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
 
 
@@ -120,7 +118,7 @@ public class ApiTest extends PageBase{
   public void testGetServiceForUsers() throws Exception {
 
     test = report.startTest("API - Get Method for Users");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
 
 
@@ -132,7 +130,7 @@ public class ApiTest extends PageBase{
   public void testPostServiceForUsers() throws Exception {
 
     test = report.startTest("API - Post Method for User");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
 
     payload = apiUtilities.createPostRequestForUsers();
@@ -144,7 +142,7 @@ public class ApiTest extends PageBase{
   public void testPutServiceForUsers() throws Exception {
 
     test = report.startTest("API - Put Method for Users");
-    ih = new InstanceHolder(driver, report, test, wh, testdata);
+    ih = new InstanceHolder(report, test, wh, testdata);
     apiUtilities = new ApiUtilities(ih);
 
 
